@@ -1,0 +1,36 @@
+﻿Build started 12/4/2010 6:54:09 PM.
+     1>Project "C:\WallPaper\WallPaper\WallPaper\WallPaper.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\WallPaper.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\WallPaper.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\WallPaper.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt WallPaper.cpp
+         WallPaper.cpp
+     1>c:\wallpaper\wallpaper\wallpaper\wallpaper.cpp(568): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(645) : see declaration of '_itow'
+     1>c:\wallpaper\wallpaper\wallpaper\wallpaper.cpp(589): warning C4996: '_itow': This function or variable may be unsafe. Consider using _itow_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(645) : see declaration of '_itow'
+       ResourceCompile:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\WallPaper.res" WallPaper.rc 
+       ManifestResourceCompile:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\WallPaper.exe.embed.manifest.res" Debug\WallPaper_manifest.rc 
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\WallPaper\WallPaper\Debug\WallPaper.exe" /INCREMENTAL /NOLOGO Psapi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\WallPaper.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\WallPaper\WallPaper\Debug\WallPaper.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\WallPaper\WallPaper\Debug\WallPaper.lib" /MACHINE:X86 Debug\WallPaper.res
+         Debug\WallPaper.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\WallPaper.obj
+       Manifest:
+         D:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\WallPaper.exe.embed.manifest" /manifest Debug\WallPaper.exe.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         WallPaper.vcxproj -> C:\WallPaper\WallPaper\Debug\WallPaper.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\WallPaper.unsuccessfulbuild".
+         Touching "Debug\WallPaper.lastbuildstate".
+     1>Done Building Project "C:\WallPaper\WallPaper\WallPaper\WallPaper.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.59
